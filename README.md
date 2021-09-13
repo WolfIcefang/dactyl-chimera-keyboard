@@ -28,6 +28,9 @@ Wiring up a Dactyl Chimera shouldn't be too different from handwiring a regular 
 
 Dactyl Chimera is a 5 row, 6 column layout.
 
+## License information:
+Dactyl Chimera currently does not have a license associated with it. I recognize the problem of this and want to find a solution, but need help to do so. At the basic level, Chimera is really just a plastic sheet with a bunch of holes in it. I want to encourage users to design their own arches and tenting feet from scratch, and license them however they want. However, most licenses are written to encourage the distribution and modification of existing work, and the Chimera's purpose is to let you test the work you've done yourelf. If someone knows of an appropriate license, let me know and I'll be very grateful.
+
 ## History of the Dactyl / Special Thanks:
 
 The first [Dactyl keyboard](https://github.com/adereth/dactyl-keyboard), created by Adareth, is a 3D printable adaptation of the Kinesis Advantage keyboard. The Kinesis Advantage, in turn, bears a striking resemblance to the even older Maltron Keyboard. This Dactyl Chimera also takes inspiration from the bezel-free sides of the [Dactyl Manuform](https://github.com/tshort/dactyl-keyboard), the adjustability of the [Squeezebox keyboard](https://peterlyons.com/problog/2021/04/squeezebox-keyboard/), the Tenting Puck of the [Kyria](https://splitkb.com/products/tenting-puck) and various discussions on the #kb-ergo channel in the [MechKeys Discord](https://discord.gg/mechkeys)
