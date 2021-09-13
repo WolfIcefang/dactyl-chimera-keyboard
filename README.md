@@ -8,7 +8,7 @@ Dactyl Chimera (DC)'s primary purpose is as a testing tool. It is not designed t
 
 ## How it works (and why it's awesome):
 
-Dactyl Chimera is comprised of three main components: arches, the rack, and the tenting foot.
+###Dactyl Chimera is comprised of three main components: arches, the rack, and the tenting foot.
 
 **The Rack** is similar to the bottom plate of a traditional keyboard. It is mostly flat and has a pattern of screw holes to mount the other components.
 
@@ -23,6 +23,10 @@ We (that is, so far, just Wolf Icefang) are developing Dactyl Chimera in FreeCAD
 You should also join the Dactyl Chimera Center in [Matrix](https://matrix.to/#/!mArixoOlqsCQNWsaFc:matrix.org?via=matrix.org) The Dactyl Chimera Center is a great place to troubleshoot problems, but also discuss improvements, ideas, and successful builds. You can also use the Issues and Pull requests tools in this GitHub repo.
 
 Wiring up a Dactyl Chimera shouldn't be too different from handwiring a regular Dactyl, and I'll post a link to a good build guide once I find one. For now, here's a link to the more generalized r/mechanicalkeyboards custom keyboards wiki: https://www.reddit.com/r/MechanicalKeyboards/wiki/customkeyboards to learn about hardware, and for software, here's a link https://www.reddit.com/r/MechanicalKeyboards/wiki/customkeyboards You'll be using Custom Firmware, most commonly QMK or ZMK.
+
+##Designing a keymap
+
+Dactyl Chimera is a 5 row, 6 column layout.
 
 ## History of the Dactyl / Special Thanks:
 
