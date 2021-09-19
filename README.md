@@ -18,7 +18,7 @@ Dactyl Chimera (DC)'s primary purpose is as a testing tool. It is not designed t
 
 ## How to participate:
 
-We (that is, so far, just Wolf Icefang) are developing Dactyl Chimera in FreeCAD and intend to duplicate the design in SolveSpace. If you prefer a different 3D modeling platform, use the \[sizing chart\] (coming soon) to help fit your arches to the rack. If you don't know anything about 3D modeling, you can download a set of "standard" STL files and use a 3D printer at your local library/school/makerspace. However, if you do own a 3D printer, I HIGHLY recommend learning FreeCAD.
+We (that is, so far, just Wolf Icefang) are developing Dactyl Chimera in FreeCAD and intend to duplicate the design in SolveSpace. If you prefer a different 3D modeling platform, use the \[sizing chart\] (coming soon) to help fit your arches to the rack. If you don't know anything about 3D modeling, you can download a set of "standard" STL files from our releases page and use a 3D printer at your local library/school/makerspace. However, if you do own a 3D printer, I HIGHLY recommend learning FreeCAD.
 
 You should also join the Dactyl Chimera Center in [Matrix](https://matrix.to/#/!mArixoOlqsCQNWsaFc:matrix.org?via=matrix.org) The Dactyl Chimera Center is a great place to troubleshoot problems, but also discuss improvements, ideas, and successful builds. You can also use the Issues and Pull requests tools in this GitHub repo.
 
@@ -36,13 +36,34 @@ First off, you don't need to use all of these keys on this keyboard. You can rec
 
 ### But I use a full size keyboard! Where are my arrow keys and function row?
 
-Dactyl Chimera has approximately the same keys as a 60% keyboard, depending on your thumb cluster. I recognize this as a real defecit, however, by shaping your layout to your specific needs the problems can be overcome. 
+Dactyl Chimera has approximately the same keys as a 60% keyboard, depending on your thumb cluster choice. Included with each release is an easy-to-read spreadsheet showcasing the best layouts available. I recommend starting off with the Traditional-ish layout. But why, and how, does it work? To understand it, we need to:
 
-ESCAPE  1    2    3    4    5       6    7    8    9    0   DELETE
-TAB     Q    W    F    P    B       J    L    U    Y    ;   BACKSPACE
-CTRL    A    R    S    T    G       M    N    E    I    O     '
-SHIFT   Z    X    C    D    V       K    H    ,    .    UP  SHIFT
-ENTER  GUI  ALT               space               LEFT DOWN RIGHT
+### Understand basic theories of keyboard layouts
+
+Fortunately, I'm not going to run your ears off for paragaphs at a time... because other people have already written guides!
+
+For beginners, I'd recommend reading Thomas Baart's Guide to working with a small keyboard https://blog.splitkb.com/how-to-work-with-small-keyboards
+
+If you're a more visual learner, this video by Troy Fletcher is quite good: https://odysee.com/@TroyFletcher:2/tiny-keyboards-an-explanation:b 
+
+Once you're beyond the basics, you might want to check out:
+
+For the modifier keys like shift:
+
+Precondition's Guide to Home Row Mods https://precondition.github.io/home-row-mods
+
+OR
+
+why you shuold BAN Key Chords: http://xahlee.info/kbd/banish_key_chords.html
+
+If you can't get your hands to settle down:
+
+You might enjoy Colemak: https://colemak.com/
+
+OR
+
+Dvorak: 
+
 
 
 
