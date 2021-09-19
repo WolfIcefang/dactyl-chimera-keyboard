@@ -8,7 +8,7 @@ Dactyl Chimera (DC)'s primary purpose is as a testing tool. It is not designed t
 
 ## How it works (and why it's awesome):
 
-###Dactyl Chimera is comprised of three main components: arches, the rack, and the tenting foot.
+### Dactyl Chimera is comprised of three main components: arches, the rack, and the tenting foot.
 
 **The Rack** is similar to the bottom plate of a traditional keyboard. It is mostly flat and has a pattern of screw holes to mount the other components.
 
@@ -24,9 +24,27 @@ You should also join the Dactyl Chimera Center in [Matrix](https://matrix.to/#/!
 
 Wiring up a Dactyl Chimera shouldn't be too different from handwiring a regular Dactyl, and I'll post a link to a good build guide once I find one. For now, here's a link to the more generalized r/mechanicalkeyboards custom keyboards wiki: https://www.reddit.com/r/MechanicalKeyboards/wiki/customkeyboards to learn about hardware, and for software, here's a link https://www.reddit.com/r/MechanicalKeyboards/wiki/customkeyboards You'll be using Custom Firmware, most commonly QMK or ZMK.
 
-##Designing a keymap
+## Designing a keymap
 
-Dactyl Chimera is a 5 row, 6 column layout.
+### More keys is always better at the desktop!
+
+Dactyl Chimera is a 5 row, 6 column layout. Having anything bigger than a 40% may be intimidating to some of you, but this Readme section will teach you that it's okay to use large keyboards. First, why so many keys? Simply put, Dactyl Chimera needs to be massive so that it can accommodate both the largest and smallest keyboard styles. Equally importantly, bigger curves provide more space to hide screws.
+
+### But what do I do with all these keys?
+
+First off, you don't need to use all of these keys on this keyboard. You can recreate your asetniop layout in DC; you don't even need to wire switches into all the sockets. However, you may want to fill the top and bottom rows with macros. They can be used to quickly accommodate a strange keyboard shortcut, (for example, "why does Microsoft Excel force me to use F2 as the Edit Cell shortcut?") patch a deficit in your layout, ("I didn't realize I needed an Enter key on my left hand!"), or for actions you often take when your hands aren't settled into a typing rhythm ("Leave Zoom Meeting" and "mute computer" are among my top picks.)
+
+### But I use a full size keyboard! Where are my arrow keys and function row?
+
+Dactyl Chimera has approximately the same keys as a 60% keyboard, depending on your thumb cluster. I recognize this as a real defecit, however, by shaping your layout to your specific needs the problems can be overcome. 
+
+ESCAPE  1    2    3    4    5       6    7    8    9    0   DELETE
+TAB     Q    W    F    P    B       J    L    U    Y    ;   BACKSPACE
+CTRL    A    R    S    T    G       M    N    E    I    O     '
+SHIFT   Z    X    C    D    V       K    H    ,    .    UP  SHIFT
+ENTER  GUI  ALT               space               LEFT DOWN RIGHT
+
+
 
 ## License information:
 Dactyl Chimera currently does not have a license associated with it. I recognize the problem of this and want to find a solution, but need help to do so. At the basic level, Chimera is really just a plastic sheet with a bunch of holes in it. I want to encourage users to design their own arches and tenting feet from scratch, and license them however they want. However, most licenses are written to encourage the distribution and modification of existing work, and the Chimera's purpose is to let you test the work you've done yourelf. If someone knows of an appropriate license, let me know and I'll be very grateful.
