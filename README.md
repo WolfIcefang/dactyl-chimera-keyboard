@@ -2,6 +2,8 @@
 
 ## A mechanical keyboard designed for 3D printing, tinkering, and experimentation.
 
+![image](https://user-images.githubusercontent.com/38160450/137078004-720b4ac5-ea5a-46e6-8267-8d04506273c3.png)
+
 This project aims to provide a "test bench" for various column curvatures in mechanical keyboards. Potential side effects include: shorter 3d printing times, instant fine-tuning of column height and stagger, adjustable tenting, and comfortable computer usage. Interchangable thumb clusters are also a goal of the project, but have not been seriously researched.
 
 Dactyl Chimera (DC)'s primary purpose is as a testing and research tool. It is not designed to look stylish, sound spectacular, or increase compactness. If you do not mind a couple (dozen) dangling wires or visible screws, DC should offer adequate reliablility and durability for long-term, even permanent, use.
