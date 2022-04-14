@@ -1,5 +1,14 @@
 # dactyl-chimera-EX: the Experimental branch.
 
+## Dactyl Chimera EX printed successfully, but has a few critical issues:
+- It is difficult to assemble and disassemble.
+- It has no method to handle wiring.
+- The outer columns are difficult to print.
+- The rack was not level between the bottom row and top row.
+- The excessive use of FreeCAD's Spreadsheet slowed down the program.
+
+Work has been moved to the Dactyl Chimera Neo (v3.0) branch. **This branch will no longer be updated.**
+
 ![image](https://user-images.githubusercontent.com/38160450/137390333-8405c472-2334-4be3-90fa-50e817eeb17e.png)
 
 Dactyl Chimera EX will have the following completed before it becomes the main branch and gets a Reddit announcement post:
