@@ -1,5 +1,7 @@
 # dactyl-chimera-keyboard
 
+### Welcome to the Neo branch! Check out the "Planning" folder for current info.
+
 ## A mechanical keyboard designed for 3D printing, tinkering, and experimentation.
 
 ![image](https://user-images.githubusercontent.com/38160450/137078004-720b4ac5-ea5a-46e6-8267-8d04506273c3.png)
