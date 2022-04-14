@@ -1,0 +1,62 @@
+This is the main order of operations. It needs to be updated; please do not follow it.
+Note: Dactyl Maximus was the old name for Dactyl Chimera. I abandoned the Maximus moniker because it was too similar to the popular Dactyl Manuform.
+
+Stages:
+Stage 1: announce the project.
+Stage 2: learn more about firmware through the Atomic Green Corne.
+Stage 3: Learn more about 3d modeling
+stage 4: develop the keyboard and develop the guide.
+
+Planning:
+   write the list of tasks (this document, lol) - done
+   organize Gemini keyboard folder - done
+   write the spec sheet for the Dactyl Maximus
+   announce the project in Discord
+
+Hardware:
+   determine if addressable throughhole RGB is possible - done. use Kompacted RGB with the SK6812 mini-e LED
+   find an expert on trackpoint integration
+   design a single switch pcb for throughhole RGB, hotswap sockets, and "easy soldering"
+   learn about microswitches (for trackpoint keys)
+   learn about OLED integration.
+   learn about rotary encoder integration
+   learn about mouse wheel integration
+   learn about thumb stick integration
+   learn about different options for easy to solder, easy to connect, highly reusable, and slim plugs (for thumb cluster)
+   learn how to give a keyboard that "thock" sound.
+   learn about how the dactyl automatically models key switch locations
+   learn what advancements have been made with the Dactyl Manuform and Tightyl
+   learn about RMTZ's naive (maybe)
+   learn 3d modeling
+   design a stable grip for Kailh switches
+   design a stable grip for Kailh Box switches
+   design a stable grip for Kailh Choc switches - check out the GiGi keyboard on HIDTech
+   design a stable grip for OUTEMU switches
+   find out what other switches aren't compatible with the Dactyl and design variants for them
+   choose a single switch PCB for the Maximus EZ guide. (probably the Kompacted RGB which hasn't released yet)
+   design the body of the dactyl Maximus
+   
+
+Software:
+   Get shift+enter working on Atomic Green Keymap
+   Install github-connected version of QMK onto the Raspberry Pi and keep it up to date.
+      learn GitHub
+   get Atomic Green Corne onto the QMK directory with no issues:
+      learn what's going wrong with setting individual RGB LEDs on the right half of the board.
+      fix RGB matrix lighting by adding a custom effect for myself.
+      OPTIONAL: create a userspace version of the keymap.
+   Get VIA working on Windows 10 with the Corne
+   Get tap dance and Combos working with custom keycodes
+   get tap dance and Combos working with VIA
+   make the macro control as easy as possible.
+   make a system to seamlessly switch between code and GUI within VIA
+
+Guide:
+   write the guide for beginners and have other people try it out
+   iterate based on user feedback
+
+Marketing:
+   Get models in the hands of "influencers"
+   spend money on traditional video adverts?
+   spread interest via word of mouth
+   

@@ -1,0 +1,21 @@
+This is a basic introduction to the Dactyl Chimera (DC). For up-to-date info or to build your own, visit the GitHub page: https://github.com/WolfIcefang/dactyl-chimera-keyboard/
+
+Dactyl Chimera...
+... is designed from the ground up in FreeCAD. Unlike "true" Dactyls, DC is not based on the original OpenSCAD or Clojure code, so there's no programming required. You do need to understand r/FreeCAD, though.
+... is sliced into columns for easy 3D printing. Each column is printed separately and screwed to a base plate.
+... is modeled for modification. Every part is sketched parallel to one of FreeCAD's origin planes. In layman's terms, everything is either horizonal or vertical. This eliminates a ton of complex math for keycap interference and stuff.
+... is fine-tunable. Simply add 3D printed shims to adjust each column's height and stagger. You can't adjust the column's arc radius or tilt angle without printing a new part though. This design (and spreadsheet modeling technique) was inspired by the [Squeezebox keyboard](https://peterlyons.com/problog/2021/04/squeezebox-keyboard/). Side note: Dactyl Chimera doesn't work with Kailh Choc switches.
+
+... is NOT meant to look pretty. A side effect of screw-together parts and open walls is, in fact, visible screws and dangling wires. I think of this keyboard as a "test bench", helpful for prototyping different column shapes before (or instead of) committing to a solid-walled build. Embrace the jank.
+... NOT portable. Once again, without walls, DC isn't as sturdy as a regular dactyl. Don't throw it in your backpack. Being bound to the desktop also let me justify making the keyboard absolutely massive.
+... is NOT cheaper. You'll still be printing the same amount of plastic, just in smaller steps.
+... is NOT a leap forwards in ergonomics. It's a Dactyl with the thumb cluster of a Corne. The purpose is to improve the production process of an existing design.
+... is NOT listed in Vial or the QMK configurator yet. There should be enough space for wires, but I've been too busy 3D modeling and 3D printing to work on the soldering or software.
+
+... WILL have different types of thumb clusters. Creating a swap-in joystick module was actually my original goal for this whole design. Side rant, it's not "hot swapping"! You're not swapping the switches while the keyboard is plugged in! (a.k.a. while the "lines are hot"). If anything, it should be called "cold swapping" because you don't use a soldering iron!
+... WILL be much easier to personalize. In future versions you'll be able to open up FreeCAD's spreadsheet workbench, type in your hand size, and get a parameterized keyboard as reliably as https://dactyl.siskam.link/lightcycle (number of keys will not be adjustable because I don't know how to do that.) The current version of DC has a spreadsheet page, but changing most of the numbers just breaks the model instantly.
+... WILL support mounts for an OLED display and a microcontroller tray. Yeah, the current version... doesn't have that.
+... WILL have a build guide! For now, join the Matrix Space to ask me questions. https://matrix.to/#/#dactyl-chimera-center:matrix.org
+... WILL get ported to SolveSpace. Eventually.
+
+I'm announcing v1 of Dactyl Chimera today *because* of all the work that still needs to go into it. I'm not a GitHub or QMK expert, I don't even know what brand of screws to recommend in the build guide. I want YOUR help making this keyboard the best it can be, because a chimera made of just one person is really, really boring.

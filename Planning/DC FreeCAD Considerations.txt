@@ -1,0 +1,25 @@
+Overusing the spreadsheet can lead to slowdown in FreeCAD. This document maps out which variables go where.
+
+Unchanging dimensions: These are created within sketcher and will never need to change.
+- Switch socket size (x, y, z, overhang.)
+- Spacing between switches
+- Spacing between columns (20 mm)
+- Thickness of components
+- screw hole location from center-row switch - must be the same on every arch for the stagger guide rail to work
+- Tenting screw diameter
+
+Editable dimensions: These are dimensions that a user would most likely want to edit; they are within the spreadsheet. They should be given variable names.
+Whole-column tilt
+Per-key relative tilt angle
+Column height
+Column stagger
+
+Spreadsheet values: - these are typically variables that must be shared between rows AND must be edited by the end user. 
+- Bottom row keycap height
+- Z row keycap height
+- A row keycap height
+- Q row keycap height
+- Top row keycap height
+- Wiring clearance
+- Screw diameter
+- Keyboard tenting angle
