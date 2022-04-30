@@ -4,9 +4,8 @@ This is the list of goals for Dactyl Chimera NEO.
 
 New parts:
 - The Conductor: screw-down wire management
-- Stagger Guide Rail: Screws onto rack instead of arches for easier adjustment. Removable after initial alignment
-- OLED Tray
-- Possible: snap-on accent panels
+- Stagger Guide Rail: Screws onto rack instead of arches for easier adjustment. Removable after initial alignment.
+- OLED Bracket
 
 New techniques:
 - Use named dimensions to reduce the burden on the spreadsheet
@@ -45,4 +44,4 @@ The Rack:
 - model the arches before the rack, allowing the rack to adapt to the stagger of each arch
 
 Tenting:
-- Reuse the tenting solution from Dactyl Chimera EX
+- V1 style stable tenting foot with height adjust
