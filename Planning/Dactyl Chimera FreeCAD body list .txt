@@ -3,39 +3,42 @@ Bodies are listed in the order of creation.
 
 Above Z 0:
 Arches:
-	Outer column
-	Pinkie column
-	Ring column
-	Middle column
-	Index column
-	Inner column
-
-	Stagger guide rail
+	OuterArch
+	PinkieArch
+	RingArch
+	MiddleArch
+	IndexArch
+	InnerArch
+	StaggerRail
 	
 Thumb cluster:
-	Lower thumb cluster
-	Lower thumb arm
-	Upper thumb arm
-	Upper thumb cluster
+	ThumbBracket
+	ThumbArmL
+	ThumbArmU
+	ThumbPlate
 
-The Conductor:
-	Conductor body
-	Cover plate
+
+
+Racks:
+	RackRear (above z=0)
+	RackFront
+	
+	InnerRack (below z=0)
+
+Tenting foot
+	TentBracketRear
+	LegRear
+	FootRear
+	TentBracketFront
+	LegFront
+	FootFront
 
 Microcontroller holder:
 	???
 
-Racks:
-	Rear outer rack
-	Front outer rack
-	
-**Below Z 0:**
-	Inner rack (acrylic)
-
-Tenting foot
-	Rear and front bracket
-	Rear and front Leg
-	Rear and front Foot
+The Conductor:
+	Conductor
+	Cover plate
 
 Accessories: These bodies can be created later or even made in a separate document
 	OLED bracket
