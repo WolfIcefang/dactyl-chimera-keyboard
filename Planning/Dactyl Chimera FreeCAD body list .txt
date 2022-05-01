@@ -3,6 +3,7 @@ Bodies are listed in the order of creation.
 
 Above Z 0:
 Arches:
+	*Don't forget the spreadsheet*
 	OuterArch
 	PinkieArch
 	RingArch
