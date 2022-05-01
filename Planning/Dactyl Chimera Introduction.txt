@@ -1,10 +1,11 @@
+*How did you even find this file? I'm deleting it.*
+
 Dactyl Chimera V3 is here! 
 
-If you've been waiting for V2, don't worry, you didn't miss anything. V2's "improvements" went down worse than a toilet with a rocket launcher, so it never saw an official release. To avoid confusion, I've rolled the naming scheme over to V3.
+If you've been waiting for V2, don't worry, you didn't miss anything. V2's "improvements" went down worse than a toilet with a rocket launcher. To avoid confusion, I've rolled the naming scheme over to V3.
 
 But what does Dactyl Chimera actually do?
 
-It's made for 3D printing! Each column is printed out separately, then screwed into a base plate.
 
 It's adjustable! Since we're screwing things together, you can just slide them around or add shims between pieces before clamping everything down.
 
@@ -12,7 +13,7 @@ It supports MX and Choc V1 switches! MX switches have enough space for full 19 m
 
 Ready-to-use QMK firmware with Vial support! (but only for Proton-C.) Vial allows you to make drag-and-drop adjustments your keyboard layout without re-flashing your microcontrollers. It's not my software; I can't take credit for it.
 
-Wire management with *The Conductor!* Inspired by my grandfather's model train sets, the conductor is an array of screws that bridges the switch board with the microcontroller. You can remove any column with no soldering, simply by loosening the appropriate connections.
+Wire management with *The Conductor!* Inspired by my grandfather's model train sets, the conductor is an array of screws that bridges the switch board with the microcontroller. You can remove any column with no desoldering; simply loosen the appropriate connections.
 
 A dedicated build guide and Matrix Space! FreeCAD is "easy" (after a year of related classes at your local technical college) so I'd be happy to take feedback and take assistance. https://matrix.to/#/#dactyl-chimera-center:matrix.org
 
