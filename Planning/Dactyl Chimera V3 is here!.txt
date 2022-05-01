@@ -1,0 +1,41 @@
+This will be the Reddit post for Dactyl Chimera V3.
+
+If you missed my post on the first Dactyl Chimera:
+- It's made for 3D printing! Each column is printed separately, then screwed into a rack.
+- You can adjust column stagger and colunm height just by loosening some screws and sliding things around.
+- This keyboard was made in FreeCAD, so you can view and edit a WYSIWYG 3D model of the board. (This keyboard is not compatible with OpenSCAD.)
+- Not everything's perfect, of course: Dactyl Chimera's dangling wires make it unsuitable for travel, and while the new version adds Choc V1 support, this is NOT a low profile keyboard.
+
+Dactyl Chimera V3 brings some great new features to your table (or standing desk):
+- The rack is split into sections for even shorter print times. The original rack took *9 hours* to print; now the biggest piece is ready in just under (BLAM) hours.
+- FreeCAD's 3D model is less likely to glitch when adjusted. Hopefully you won't find out what I'm referring to here.
+- The rack gains an extra inner column for mounting a microcontroller and other accessories.
+- The default STL files now match the shape of the Dactyl Manuform.
+- You can actually reach the screws to unscrew them this time.
+
+There's good news if you printed V1 of the Dactyl Chimera:
+- V3's column spacing has been simplified to exactly 20 mm, but you can add the new adjustable thumb cluster and tenting foot to your existing keyboard.
+- There's per-key backlight support courtesy of WSB. I'll be designing the "World's Smallest Board" to fit between a switch and an already-wired hotswap socket. It has solder pads to hold an RGB LED... and nothing more. You can wire your board today and add RGB next week.
+- Oh, and V3 now properly  guarantees compatibility with 19 X 19 mm single switch PCBs. (for MX switches only.)
+
+But that's not all:
+- Experience wire management bliss with ***The Conductor!*** Inspired by my grandfather's model train sets, the conductor is an array of screws bridging the gap between switch board and microcontroller. You can remove any column without desoldering; simply loosen the appropriate connections.
+- Dactyl Chimera V3 has an unabridged build guide on Github Pages, plus a Space to chat on Matrix. FreeCAD is "easy" (after a year of classes at a local technical college) so I'd be happy to take feedback and give assistance.
+- I have (finally) set up ready-to-use QMK firmware with support for Vial! (but only for the Proton-C.) Vial allows you to change your keyboard layout without writing a line of code and without re-flashing your microcontrollers.
+
+
+By the way, you didn't miss V2. V2 never made it to the official release stage; it went down worse than a toilet-mounted rocket launcher. I'm calling my latest version V3 to avoid documentation contradictions.
+
+
+Dactyl Chimera is now "ready-to-use", but there can still be more improvements:
+- Void switch support?
+- Joystick thumb cluster?
+- a sixth row?
+- ZMK firmware?
+- Wider microcontroller support?
+- OpenRGB integration?
+Of course, you can help make these improvements a reality by *doing them for me*; Dactyl Chimera is open on GitHub.
+
+You can access the project on GitHub here: https://github.com/WolfIcefang/dactyl-chimera-keyboard/
+Follow the build guide here: https://wolficefang.github.io/dactyl-chimera-keyboard/
+And when you have questions, ask them here: https://matrix.to/#/#dactyl-chimera-center:matrix.org
