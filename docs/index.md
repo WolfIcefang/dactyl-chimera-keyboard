@@ -1,22 +1,24 @@
 # Dactyl Chimera build guide
 
-This build guide is a work in progress. It is written for the Dactyl Chimera EX branch.
+This build guide is a work in progress. It is written for the Dactyl Chimera 3.0 branch.
 
 ## Is Dactyl Chimera right for you?
 
 Dactyl Chimera (DC) is a split keyboard with 5 rows and 6 columns in each half. It has 60 keys, similar to a 60% keyboard.
 
-DC is NOT a medical tool. I have not studied ergonomics or human anatomy. I made this keyboard because I dislike stablilizers.
+DC is NOT a medical tool. I have not studied ergonomics or human anatomy. I made this keyboard because I dislike spacebar stablilizers.
 
 Dactyl Chimera is a "test bench" keyboard. It prioritizes adjustability and experimentation, but sacrifices beauty, sound profile, and portability.
 
-Dactyl Chimera is compaible only with MX-style keyswitches. It is not compatible with Choc, Alps, or any brand of optical switch.
+Dactyl Chimera is compaible with MX-style and Kailh Choc v1 keyswitches.
 
 If all that sounds good to you, then let us begin!
 
 ## Designing your keyboard layout:
 
-Start thinking about your layout today! It will give you something to do while you wait for hardware parts.
+A "layout" determines how your keys are arranged on your keyboard. It is also called a Keymap. You may already know where the letters are going, but what about the arrow keys? F1-F12? The enter key? Layouts can also determine how many physical keys your keyboard needs; maybe you need a physical number pad.
+
+Start thinking about your layout today. It will give you something to do while you wait for hardware parts.
 
 ### Understanding layout basics:
 
@@ -28,16 +30,16 @@ To start, read one of the following guides:
 Now that you've got the general idea, I highly recommend these articles:
 
 - DreymaR's explanation of "[Extend](https://dreymar.colemak.org/layers-extend.html)", for where to put your arrow keys.
-- [Precondition's Guide to Home Row Mods](https://precondition.github.io/home-row-mods) **VS** [why you shuold BAN Key Chords](http://xahlee.info/kbd/banish_key_chords.html) for where to put shift, ctrl, and more.
+- [Precondition's Guide to Home Row Mods](https://precondition.github.io/home-row-mods) **VS** [why you shuold BAN Key Chords](http://xahlee.info/kbd/banish_key_chords.html) for where to put ctrl, shift, gui, and alt.
 - I use Colemak mod-DH. It helps my thumbs rest on the small spacebar key. It's easy to learn using the [Tarmak](https://dreymar.colemak.org/tarmak.html) system.
 - You can join the https://www.reddit.com/r/KeyboardLayouts/ subreddit for some really mind-bending ideas.
 - Finally, I challenge someone to combine [Asetniop](http://asetniop.com/) with 50 macro keys. There is no reward.
 
-#### If you prefer smaller keyboards...
+#### If you are already using smaller keyboards...
 
-...Then you might be intimidated by a staggering **60 keys**. Fortunately, you don't actually need to USE every key on this keyboard. You don't even need to put switches in all the holes! The Dactyl Chimera is massive so that it can accommodate all layouts, big and small. That being said, "extra keys" can quickly accommodate an unexpected keyboard shortcut, (for example, "why does Microsoft Excel use F2 as the Edit Cell shortcut?"), temporarily patch a deficit in your layout, ("I didn't realize I needed an Enter key on my left hand."), or trigger actions you use when your hands aren't settled into a typing rhythm. ("I need to mute my computer for this phone call.")
+...Then you might be intimidated by a staggering **60 keys**. Fortunately, you don't actually need to USE every key on this keyboard. You don't even need to put switches in all the holes! That being said, "extra keys" can quickly accommodate an unexpected keyboard shortcut, (for example, "why does Microsoft Excel use F2 as the Edit Cell shortcut?"), temporarily patch a deficit in your layout, ("I didn't realize I needed an Enter key on my left hand."), or trigger actions when your hands aren't settled into a typing rhythm. ("I need to mute my computer for this phone call.")
 
-If you're still wish for a smaller keyboard, you can check out:
+If you still wish for a smaller keyboard, you can check out:
 - The squeezebox keyboard, possibly the closest to the Dactyl Chimera in design and features. https://www.reddit.com/r/ErgoMechKeyboards/comments/rvuvk2/squeezebox_keyboard_v2112/
 - The Corne is open source and a tentpole of the split ergo community. https://github.com/foostan/crkbd
 - The Lily58 has 58 keys but is flat and travel-friendly. Many online retailers offer versions with unique features. https://github.com/kata0510/Lily58
@@ -46,9 +48,9 @@ If you're still wish for a smaller keyboard, you can check out:
 
 #### If you are accustomed to larger keyboards...
 
-...Then you might be concerned by the lack of arrow keys or a function row. Small keyboards are not for everyone. You can use key remapping software to "shrink" the keyboard you currently own, add layers, and more: https://www.reddit.com/r/MechanicalKeyboards/wiki/remapping_software
+...Then you might be concerned by the lack of arrow keys or a function row. Small keyboards are not for everyone. You can use key remapping software to "shrink" the keyboard you already own, add layers, and more: https://www.reddit.com/r/MechanicalKeyboards/wiki/remapping_software
 
-Few keyboards sold today offer a split "bowl" design with an F-row and arrow keys. 
+Only a few Dactyl-like keyboards have more keys than the Dactyl Chimera. 
 - [Maltron](https://www.maltron.com) is the brand that started it all.
 - The [Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2-refurbished/) borrowed some ideas from Maltron, and the first Dactyl borrowed some ideas from Kinesis.
 
@@ -60,7 +62,9 @@ Many exciting projects are in the works, though:
 
 ### Choosing your firmware:
 
-Your layout you make will be limited (or enhanced) by the firmware you choose.
+Inside of your keyboard is an arduino-like **microprocessor**. This microprocessor runs a type of program called "firmware". Firmware tells the microcontroller how to identify keystrokes and how to communicate with your PC over USB (or bluetooth).
+
+Your keyboard's features will be limited (or enhanced) by the firmware you choose.
 - Vial provides a friendly interface where you drag letters onto a picture of your keyboard. https://get.vial.today/
 - QMK offers nigh-unlimited customization and control. You'll need to write code and run Linux to get the most out of it. https://docs.qmk.fm/
 - ZMK is the best choice if you want Bluetooth. https://zmk.dev/
@@ -69,12 +73,14 @@ Your layout you make will be limited (or enhanced) by the firmware you choose.
 ### Tips for making an efficient layout:
 
 - Use a spreadsheet or Inkscape drawing to brainstorm. Spreadsheets are easy to edit, but Inkscape lets you represent combos and tap dance sequences by drawing lines and arrows.
-- Keep a list of every possible keyboard symbol. Cross off symbols you've found a spot for.
-- Beware of Enter and Escape! Depending on the app you use, pressing these keys can clear text boxes or instantly send a message. Tab and Alt are also mildly powerful.
+- Place the keys you use most often in the center of each layer, and unimportant keys near the edges.
+- Sometimes your fingers will "already know where to go". If you keep hitting the "wrong" key because you expect a certain keycode to be there, find a way to move that keycode there.
+- Keep a list of every possible keyboard key. Cross off keycodes once you've found a spot for them. Include every key found on a full size keyboard.
+- Beware of Enter and Escape! Pressing these keys can clear text boxes or instantly send a message. Tab and Alt are also mildly powerful.
 - Never bridge your combos or tap dance across both halves of the keyboard. There will come a time when you must hold something in one hand and type in the other. (even if it's just your mouse.) My original Corne layout used a combo of left thumb and right thumb as "enter"; it was almost impossible to use.
-- Pay attention to "bigrams" and "trigrams", keys you often press in a particular sequence. For example, every sentence you write ends with a tap dance of [period] -> [space] -> [shift]. If you put shift and spacebar under the same thumb, you'll suddenly feel inclined to write run-on sentences.
-- You can find a spreadsheet of the Dactyl Chimera's best layouts in this GitHub's releases page.
-- Finally, never be afraid to change your layout. Finding a good keymap is a mixture of logic, listening to pre-existing muscle memory, and accepting your company software's terrible keyboard shortcuts.
+- Pay attention to "bigrams" and "trigrams", keys you often press in a particular sequence. For example, every sentence you write ends with a tap dance of [period] -> [space] -> [shift]. If you put shift and spacebar under the same thumb, you'll feel inclined to write run-on sentences.
+- A spreadsheet of "starter layouts" is included this GitHub's releases page. These layouts are provided to inspire you, not restrict you.
+- Finally, never be afraid to change your layout. Finding a good keymap is a mixture of experimentation, logical patterns of symbols, muscle memory, and the keyboard shortcuts you use.
 
 
 ## Buying components
@@ -85,48 +91,45 @@ We'll need some tools (3d printer, soldering iron), some normal keyboard parts (
 
 Take advantage of publically available tools; this will let you invest (or sink) more money into the actual components of your keyboard. Your local makerspace, public library, or college campus are great places to look.
 
-Make sure you have access to the following.
+Make sure you have access to the following:
  - A soldering iron, solder, flush cutters, and a method of desoldering. You will not need a heat gun. https://docs.keeb.io/soldering-tools
- - You'll need a 3D printer. The users of https://www.reddit.com/r/3Dprinting/ can help. The Dactyl Chimera doesn't need dual extrusion, resin-level quality, or an enclosed build area, but those features are the gatekeepers to many other projects. From my perspective, a large heated bed, good cooling fans, and automatic bed leveling are always worth having.
+ - You'll need a 3D printer. The users of https://www.reddit.com/r/3Dprinting/ can help. The Dactyl Chimera doesn't need dual extrusion, resin-level quality, or an enclosed build area, but those features are the gatekeepers to many other projects. From my perspective, a large heated bed, good cooling fans, and automatic bed leveling are always worth the expense.
  - You can accent this keyboard with an acrylic bottom plate. I believe Keyhive offers an acrylic cutting service if you contact them directly. https://keyhive.xyz/
- - Is your screwdriver camming out? It's probably not the screw's fault. [Project Farm has multiple videos on the topic.](https://www.youtube.com/c/ProjectFarm/search?query=screwdriver)
+ - Is your screwdriver always camming out? It might not be the screw's fault. [Project Farm has multiple videos on the topic.](https://www.youtube.com/c/ProjectFarm/search?query=screwdriver)
  - If you need safety glasses, I recommend the Uvex Sperian, Uvex Protégé, and Pyramex Ztek. Clear lens variants are great for working indoors and still provide UV protection outdoors.
 
 ### Normal keyboard parts (the keys).
 
 First, the keyswitches. There are nigh-unlimited options here, look no further than [ThereminGoat's](https://www.theremingoat.com/) blog of 1,000 switches.
 
-I recommend silent switches on the Dactyl Chimera. With large echo chambers and no walls, it can be difficult to reduce unwanted sound. Silent switches have tiny rubber bumpers inside the switch itself! Many popular switches have a silent variant.
+I recommend silent switches on the Dactyl Chimera. With no walls, it can be difficult to reduce unwanted sound. Silent switches have tiny rubber bumpers inside the switch itself! Many popular switches have a silent variant.
 
-The r/mechanicalkeyboards wiki has an extensive list of vendors https://www.reddit.com/r/MechanicalKeyboards/wiki/switch_suppliers
+The r/mechanicalkeyboards wiki has an extensive list of switch vendors https://www.reddit.com/r/MechanicalKeyboards/wiki/switch_suppliers
 
-Keycaps are just as important as switches.
- - Use the MechanicalKeyboards [Keycap Guides](https://www.reddit.com/r/MechanicalKeyboards/wiki/keycap_guides) to learn all about keycap shapes and materials
+Keycaps are just as important as switches. 
+ - Use the r/MechanicalKeyboards [Keycap Guides](https://www.reddit.com/r/MechanicalKeyboards/wiki/keycap_guides) to learn all about keycap shapes and materials
  - Then head over to [KeyCapSellers](https://www.reddit.com/r/MechanicalKeyboards/wiki/keycapsellers) for pricing and vendor options.
 
 ### Parts unique to the Dactyl Chimera
 
-WSB: World's smallest board
+WSB: World's smallest board - 
 
 
-Wires:
+Wires: 
 
 
 Diodes: 
 
 
 Microcontrollers: You will need one microcontroller for each side of the keyboard. (two in total.)
- - The pro micro is a staple of the split keyboard community. It's cheap, small, and popular enough to make troubleshooting easy. However, it is an older chip with limited specs; you might struggle to install Vial onto this microcontroller.
- - The Proton-C is a direct upgrade, or sequel if you will, to the Pro Micro. It has better specs, more pins, and USB-C instead of Micro-USB. It is also more expensive and produced in limited quanitities. Read more and find retailers here: https://qmk.fm/proton-c/
- - The Black Pill is, in some ways, superior to even the Proton-C, however it is less popular and has a different pin layout. I do not own a Black Pill, so this guide does not cover it.
+ - The Raspberry Pi Pico is the newest, most powerful, and cheapest microcontroller I know of. It's the best in every category! https://www.raspberrypi.com/products/raspberry-pi-pico/
+ - The Arduino Pro Micro is a classic in the split keyboard community. It's cheap, small, and popular enough to make troubleshooting a breeze. However, it is an older chip with limited specs; you might struggle to install Vial onto this microcontroller.
+ - The QMK Proton-C is a direct upgrade, or sequel if you will, to the Pro Micro. It has better specs, more pins, and USB-C instead of Micro-USB. It is also more expensive and produced in limited quanitities. Read more and find retailers here: https://qmk.fm/proton-c/
  - The Nice!Nano has the same shape and layout as a Pro Micro, but it adds bluetooth and battery charging. This microcontroller utilizes ZMK's wireless features. https://nicekeyboards.com/nice-nano/
 
 Microcontroller sockets:
 
 Hotswap switch sockets: I got my sockets from [KeyHive](https://keyhive.xyz/shop/kailh-sockets). Other vendors are listed here: https://www.reddit.com/r/MechanicalKeyboards/wiki/switch_suppliers
-
-Prototyping PCB:
-
 
 RJ-9 phone cord and jacks: I need to find something good before I can make a recommendation.
 
@@ -143,11 +146,11 @@ RGBs, OLEDs, Rotary encoders, and joysticks will populate this section... eventu
 
 *Dactyl Chimera's .stl files have similar spacing to a regular Dactyl Manuform. If you like the default Dactyl shape but need DC's shorter print times, you can skip this secion.*
 
-In order to use FreeCAD, you first need to download it. Do so here: https://www.freecadweb.org/ The bottom of FreeCAD's homepage also lists various social for troubleshooting issues.
+In order to use FreeCAD, you first need to download it. Do so here: https://www.freecadweb.org/ The bottom of FreeCAD's homepage also lists various social media sites for troubleshooting.
 
-FreeCAD has an [official manual](https://wiki.freecadweb.org/Manual) but it covers a ton of non-keyboard stuff from Raytracing to architecture, and the manual is still a work in progress. I'll give you the basics here.
+FreeCAD has an [official manual](https://wiki.freecadweb.org/Manual) but it covers a ton of non-keyboard stuff from Raytracing to architecture. I'll give you the basics here.
 
-Like a lot of software, the trickiest step is figuring out which button is the most important. In FreeCAD, that's the "Workbench" dropdown list: (it might be in a different location and a different color for you)
+Like a lot of software, the trickiest step is figuring out which button to click on first. In FreeCAD, that's the "Workbench" dropdown list: (it might be in a different location and a different color for you)
 
 ![image](https://user-images.githubusercontent.com/38160450/138741323-3e677a1e-5984-4150-b918-8e67fb78d1a6.png)
 
@@ -157,11 +160,11 @@ If you don't have a workbench dropdown list, use the View button in the menu bar
 
 FreeCAD is highly customizable; that means it's easy to accidentally hide or disable important features. If you get lost at any point, don't hesitate to ask for help.
 
-Each workbench provides a unique set of tools for doing a different type of work. For example, the "Part" workbench is like an advanced version of Tinkercad, and the Draft workbench is for drawing in 2d, like in AutoCAD or Adobe Illustrator. For Dactyl Chimera, the most important workbenches are "Part Design", "Sketcher", and "Spreadsheet".
+FreeCAD, like Blender, is separated into Workbenches. Each workbench provides a unique set of tools for a different type of work. For example, the "Part" workbench is like an advanced version of Tinkercad, and the Draft workbench is for 2D drawing like Inkscape. For Dactyl Chimera, the most important workbenches are "Part Design", "Sketcher", and "Spreadsheet".
 
 But wait! Before we get started, make sure to choose your favorite Mouse Navigation mode, as explained here: https://wiki.freecadweb.org/Mouse_navigation Not doing this is like playing Super Metroid with the default control scheme.
 
-Oh yeah, also, make sure AutoRecovery is turned on so it creates backup files! There are plenty of buttons in FreeCAD that will just... destroy parts of the model, sometimes it's bad enough that the undo button starts spewing out error messages. AutoRecovery is nestled deep in the [Preferences editor](https://wiki.freecadweb.org/Preferences_Editor/en) there are a ton of other toggles to play with but **don't touch anything until you're familiar with how FreeCAD works by default.**
+Oh yeah, also, make sure AutoRecovery is turned on so it creates backup files! There are plenty of buttons in FreeCAD that will just... destroy your the model; sometimes it's bad enough that the undo button starts spewing out error messages. AutoRecovery is nestled deep in the [Preferences editor](https://wiki.freecadweb.org/Preferences_Editor/en) there are a ton of other toggles to play with but **don't change anything until you're familiar with how FreeCAD works by default.**
 
 ### Part Design workbench
 
