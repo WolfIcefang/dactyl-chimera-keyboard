@@ -2,7 +2,10 @@
 
 ## A mechanical keyboard designed for 3D printing, tinkering, and experimentation.
 
-![image](https://user-images.githubusercontent.com/38160450/137078004-720b4ac5-ea5a-46e6-8267-8d04506273c3.png)
+![image](https://user-images.githubusercontent.com/38160450/227727366-aeeabd77-c844-436f-b3c8-2ba4c9e852f2.png)
+
+
+![image](https://user-images.githubusercontent.com/38160450/227727314-5f76f14c-acde-490e-8a1b-1587c9680f72.png)
 
 This project aims to provide a "test bench" for various column curvatures in mechanical keyboards. Potential side effects include: shorter 3d printing times, instant fine-tuning of column height and stagger, [adjustable tenting](https://youtu.be/rMioYSjqEoU), and comfortable computer usage. Interchangable thumb clusters are also a goal of the project, but currently there's only one thumb cluster to choose from.
 
